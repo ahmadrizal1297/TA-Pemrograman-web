@@ -1,0 +1,116 @@
+/* SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: "barlow";
+    src: url(../fonts/Barlow-Reguler.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "barlow-light";
+    src: url(../fonts/Barlow-Light.otf) format("truetype");
+}
+
+/*
+-----------------------------------------
+  ANIMATION | GLOBAL
+-----------------------------------------
+*/
+
+.animation{
+  -webkit-transition:0.3s;
+  -moz-transition:0.3s;
+  transition:0.3s;
+}
+
+/*
+-----------------------------------------
+  GRID | GLOBAL
+-----------------------------------------
+*/
+
+.pad-tb-5{              /* padding top and bottom */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pad-tb-10{             /* padding top and bottom */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*
+-----------------------------------------
+  TEXT | GLOBAL
+-----------------------------------------
+*/
+
+.text-success{
+  color: #a7d64cff;
+}
+
+.badge-success{
+  background: #a7d64cff;
+}
+
+.badge-primary{
+  background: #4eb3d1ff;
+}
+
+/*
+-----------------------------------------
+  BUTTON | GLOBAL
+-----------------------------------------
+*/
+
+.bg-gray{
+  background: #f1f2f6;
+}
+
+.bg-success{
+  background: #a7d64cff !important;
+  color: #ffffff;
+}
+
+.bg-success hr{
+  border-top:1px solid #ffffff;
+}
+
+/*
+-----------------------------------------
+  BUTTON | GLOBAL
+-----------------------------------------
+*/
+
+.btn{
+  border-radius: 0px;
+}
+
+.btn-success{
+  background: #a7d64cff;
+  border: none;
+}
+  .btn-success:hover{
+    background: #93bb46ff;
+  }
+
+.btn-primary{
+  background: #4eb3d1ff;
+  border:none;
+}
+  .btn-primary:hover{
+    background: #2a97b8ff;
+  }
+/*
+-----------------------------------------
+  FORM | GLOBAL
+-----------------------------------------
+*/
+
+.form-control{
+  border-radius: 1px;
+}

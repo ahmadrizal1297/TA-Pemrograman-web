@@ -1,0 +1,61 @@
+
+body{
+  font-family: barlow-light;
+  background: #eeeeee;
+}
+
+.bg-full{
+  height: 100% !important;
+}
+
+.bg-primary-log{
+  position: absolute;
+  background: #4eb3d1ff !important;
+  width: 100%;
+  height: 100%;
+  right: 0px;
+  color: #ffffff;
+}
+
+.container-log{
+  min-height: 600px;
+}
+
+.form-log{
+  margin-top: 20%;
+}
+
+.form-log .form-control, .form-daf .form-control{
+  border:none !important;
+}
+
+.bg-log{
+  color: #fff;
+  border-radius: 0px;
+  background-image: url('../images/landing/bg_foot.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-log{
+  position: fixed;
+  bottom:3%;
+}
+
+/* HALAMAN DAFTAR */
+
+.bg-daf{
+  color: #fff;
+  border-radius: 0px;
+  background-image: url('../images/landing/bg_foot2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-daf hr{
+  border-top:1px solid rgba(255,255,255,.1);
+}
